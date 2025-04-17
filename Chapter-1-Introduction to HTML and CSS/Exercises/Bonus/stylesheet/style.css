@@ -1,0 +1,78 @@
+/* Reset & Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f8;
+    color: #333;
+    padding: 40px;
+}
+
+/* Layout */
+header, footer {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #0077cc;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 6px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 20px 0 10px;
+    color: #444;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Code Blocks */
+pre {
+    background-color: #f0f0f0;
+    padding: 12px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-size: 0.95rem;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    color: #c7254e;
+}
+
+/* Utility */
+article {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #777;
+}
